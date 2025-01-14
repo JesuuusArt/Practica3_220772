@@ -1,0 +1,26 @@
+{
+  "name": "mx.edu.utxj.ti.awi4.practica3",
+  "version": "1.0.0",
+  "description": "Manejo de Sesiones en NodeJS y Express",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesuuusArt/Practica3_220772.git"
+  },
+  "keywords": [],
+  "author": "Jesus Alejandro Artiaga Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesuuusArt/Practica3_220772/issues"
+  },
+  "homepage": "https://github.com/JesuuusArt/Practica3_220772#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "moment-timezone": "^0.5.46"
+  }
+}
