@@ -7,7 +7,7 @@ const app = express()
 //configuración del middleware de sesiones
 app.use(
     session({
-        secret: 'hello, im Jesus', //clave de cifrado de la cookie
+        secret: 'P3JAAM#DSM-SesionesPersistentes', //clave de cifrado de la cookie
         resave: false, //permite deshabilitar cambios hasta que haya
         saveUninitialized: true, //sino esta inicializada la crea
         cookie:{maxAge: 24 * 60 * 60 * 100} //duración que mantiene la sesi+on se utilizan los milisegundos, por eso se multiplica, esto da igual a un día
